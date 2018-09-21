@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -16,8 +20,8 @@
 }
 .menu{
     float: right;
-    margin-top: 67px;
-    margin-right: 211px;
+    margin-top: 54px;
+    margin-right: 195px;
 }
 .menu li{
     float: left;
@@ -25,15 +29,64 @@
 }
 .menu li a{
     text-decoration: none;
-    font-family: Montserrat;
-    color:  #8c8c8c;
-    font-size: 14px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 300;
-    line-height: 48px;/* Приближение из-за подстановки шрифтов */
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 35px;
     display: block;
-    padding: 0 20px;
+    padding: 0px 17px;
 }
 .menu li a:hover{
     color:  #212121;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.text{
+    width: 490px;
+    margin-left: 98px;
+    margin-top: 280px;
+}
+.text h3{
+    color:  #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin-bottom: 2px;
+}
+.text h1{
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    margin-bottom: 15px;
+    letter-spacing: -4px;
+    word-spacing: 10px;
+}
+.text p{
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 28px;
+    letter-spacing: -0.1px;
+}
+.text a{
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 180px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    /* text-align: center; */
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 32px;
+}
+.text a:hover{
+    background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
 }
