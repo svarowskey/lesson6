@@ -20,8 +20,8 @@ body{
 }
 .menu{
     float: right;
-    margin-top: 54px;
-    margin-right: 195px;
+    margin-top: 55px;
+    margin-right: 196px;
 }
 .menu li{
     float: left;
@@ -30,12 +30,12 @@ body{
 .menu li a{
     text-decoration: none;
     color: #8c8c8c;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 35px;
     display: block;
-    padding: 0px 17px;
+    padding: 0px 14px;
 }
 .menu li a:hover{
     color:  #212121;
@@ -78,7 +78,6 @@ body{
     height: 45px;
     text-decoration: none;
     border-radius: 22px;
-    /* text-align: center; */
     line-height: 45px;
     color: #212121;
     font-size: 18px;
@@ -89,4 +88,99 @@ body{
 }
 .text a:hover{
     background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
+}
+.advert{
+    height: 609px;
+    background-color: white;
+}
+.adv-block{
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 120px;
+}
+.choose-adv{
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+.choose-adv li{
+    float: left;
+    list-style-type: none;
+}
+.choose-adv li a{
+    color: #6c6c6c;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px solid #6c6c6c;
+    padding: 0 9px;
+    float: left;
+    letter-spacing: 1.5px;
+}
+.choose-adv li .active{
+    color:  #212121;
+    border-bottom: 5px solid #212121;
+}
+.choose-adv li a:hover{
+    color: #212121;
+    border-bottom: 5px solid #212121;
+}
+.text-explore{
+    width: 163px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    background: #ffffff url(../img/arrow.png) no-repeat 150px 5px;
+}
+.product-list{
+    clear: both;
+}
+.products{
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    margin: 0 13px;
+    vertical-align: middle;
+}
+.product1{
+    text-align: center;
+    background-image: url("../img/product-1.jpg");
+    text-decoration: none;
+}
+.product1-button{
+    width: 56px;
+    height: 56px;
+    background: url("../img/small-button.png") no-repeat;
+}
+.product1-title{
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+.product1-text{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+}
+.product2{
+    background-image: url("../img/product-2.jpg");
+}
+.product3{
+    background-image: url("../img/product-3.jpg");
+}
+.product4{
+    background-image: url("../img/product-4.jpg");
+}
+.transparent{
+    background-color: rgba(0, 120, 201, 0.7);
 }
