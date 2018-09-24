@@ -9,6 +9,9 @@ body{
 a{
     text-decoration: none;
 }
+li{
+    list-style-type: none;
+}
 .container{
     width: 1366px;
     margin: 0 auto;
@@ -28,10 +31,11 @@ a{
 }
 .menu li{
     float: left;
-    list-style-type: none;
+}
+.menu li:last-child{
+    margin-top: 10px;
 }
 .menu li a{
-    text-decoration: none;
     color: #8c8c8c;
     font-size: 14px;
     font-weight: 400;
@@ -79,7 +83,6 @@ a{
     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
     width: 180px;
     height: 45px;
-    text-decoration: none;
     border-radius: 22px;
     line-height: 45px;
     color: #212121;
@@ -108,14 +111,12 @@ a{
 }
 .choose-adv li{
     float: left;
-    list-style-type: none;
 }
 .choose-adv li a{
     color: #6c6c6c;
     font-size: 36px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
     text-align: left;
-    text-decoration: none;
     border-bottom: 1px solid #6c6c6c;
     padding: 0 9px;
     float: left;
@@ -135,7 +136,6 @@ a{
     margin-top: 15px;
     margin-right: 15px;
     margin-bottom: 68px;
-    text-decoration: none;
     color: #212121;
     font-size: 18px;
     font-weight: 700;
@@ -156,13 +156,23 @@ a{
 .product1{
     text-align: center;
     background-image: url("../img/products/block1/product-1.jpg");
-    text-decoration: none;
 }
-.product1-button{
-    width: 56px;
-    height: 56px;
-    background: url("../img/small-button.png") no-repeat;
+.product1 a{
+    display: inline-block;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 48px;
+    height: 48px;
+    border-radius: 28px;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 60px;
+    background:  #ffffff url("../img/arrow.png") no-repeat 20px 18px;
 }
+
 .product1-title{
     color: #212121;
     font-size: 22px;
@@ -213,7 +223,6 @@ a{
     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
     width: 180px;
     height: 45px;
-    text-decoration: none;
     border-radius: 22px;
     line-height: 45px;
     color: #212121;
@@ -300,7 +309,6 @@ a{
     float: right;
     margin-top: 15px;
     margin-bottom: 68px;
-    text-decoration: none;
     color: #212121;
     font-size: 18px;
     font-weight: 700;
@@ -322,7 +330,6 @@ a{
     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
     width: 180px;
     height: 45px;
-    text-decoration: none;
     border-radius: 22px;
     line-height: 45px;
     color: #212121;
@@ -407,7 +414,6 @@ a{
     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
     width: 180px;
     height: 45px;
-    text-decoration: none;
     border-radius: 22px;
     line-height: 45px;
     color: #212121;
@@ -500,9 +506,6 @@ a{
 .footer-right{
     float: right;
     width: 381px;
-}
-.footer li{
-    list-style-type: none;
 }
 .footer h3{
     color:  #6c6c6c;
