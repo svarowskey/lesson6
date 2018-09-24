@@ -24,6 +24,10 @@ li{
     margin-left: 98px;
     margin-top: 63px;
 }
+
+
+/* МЕНЮ */
+
 .menu{
     float: right;
     margin-top: 55px;
@@ -77,7 +81,11 @@ li{
     margin-bottom: 28px;
     letter-spacing: -0.1px;
 }
-.text a{
+
+
+/* КНОПКА ORDER US*/
+
+.button-order-us{
     display: block;
     background: #ffffff;
     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
@@ -91,10 +99,20 @@ li{
     text-transform: uppercase;
     letter-spacing: 3px;
     padding-left: 32px;
+    margin-top: 30px;
 }
-.text a:hover{
+.button-order-us:hover{
     background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
 }
+
+.button-order-us:active{
+    background:  #8c8c8c url("../img/arrow.png") no-repeat 173px 16px;
+    box-shadow: 0px 0px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    color: white;
+}
+
+/* Блок 1 */
+
 .block1{
     height: 609px;
     background-color: white;
@@ -114,7 +132,7 @@ li{
 }
 .choose-adv li a{
     color: #6c6c6c;
-    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-size: 36px;
     font-weight: 700;
     text-align: left;
     border-bottom: 1px solid #6c6c6c;
@@ -146,18 +164,24 @@ li{
 .product-list{
     clear: both;
 }
-.products{
+.block1-products{
     display: inline-block;
     width: 270px;
     height: 270px;
     margin: 0 13px;
     vertical-align: middle;
-}
-.product1{
     text-align: center;
-    background-image: url("../img/products/block1/product-1.jpg");
 }
-.product1 a{
+.overlay{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+}
+.block1-products:hover .overlay{
+    display: block;
+}
+.block1-products a{
     display: inline-block;
     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
     width: 48px;
@@ -172,20 +196,25 @@ li{
     margin-top: 60px;
     background:  #ffffff url("../img/arrow.png") no-repeat 20px 18px;
 }
-
-.product1-title{
+.block1-products a:active{
+    box-shadow: 0px -1px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+}
+.block1-product-title{
     color: #212121;
     font-size: 22px;
     font-weight: 700;
     line-height: 30px;
     text-align: center;
 }
-.product1-text{
+.block1-product-text{
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     text-align: center;
+}
+.product1{
+    background-image: url("../img/products/block1/product-1.jpg");
 }
 .product2{
     background-image: url("../img/products/block1/product-2.jpg");
@@ -196,9 +225,10 @@ li{
 .product4{
     background-image: url("../img/products/block1/product-4.jpg");
 }
-.transparent{
-    background-color: rgba(0, 120, 201, 0.7);
-}
+
+
+/* Блок 2 */
+
 .block2{
     height: 683px;
 }
@@ -217,25 +247,6 @@ li{
     margin-left: 51px;
     margin-top: 225px;
 }
-.block2-text a{
-    display: block;
-    background: #ffffff;
-    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
-    width: 180px;
-    height: 45px;
-    border-radius: 22px;
-    line-height: 45px;
-    color: #212121;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    padding-left: 32px;
-    margin-top: 22px;
-}
-.block2-text a:hover{
-    background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
-}
 .block2-text h3{
     color:  #1e88e5;
     font-size: 18px;
@@ -253,11 +264,10 @@ li{
 }
 .block2-text p{
     color:  #6c6c6c;
-    font-size: 13.99px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 24px;
     text-align: left;
-    transform: scaleY(1.0022);
 }
 .block-trending{
     width: 1170px;
@@ -324,25 +334,6 @@ li{
     padding-top: 265px;
     padding-left: 98px;
 }
-.block4-text a{
-    display: block;
-    background: #ffffff;
-    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
-    width: 180px;
-    height: 45px;
-    border-radius: 22px;
-    line-height: 45px;
-    color: #212121;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    padding-left: 32px;
-    margin-top: 30px;
-}
-.block4-text a:hover{
-    background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
-}
 .block4-text h3{
     color:  #e53935;
     font-size: 18px;
@@ -407,25 +398,6 @@ li{
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-}
-.block5-text a{
-    display: block;
-    background: #ffffff;
-    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
-    width: 180px;
-    height: 45px;
-    border-radius: 22px;
-    line-height: 45px;
-    color: #212121;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    padding-left: 32px;
-    margin-top: 26px;
-}
-.block5-text a:hover{
-    background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
 }
 .block5-product2{
     background: url("../img/products/block5/block5-product-2-sm.jpg");
@@ -537,9 +509,7 @@ li{
 }
 .footer input{
     padding-left: 20px;
-    border-width: 1px;
-    border-color: #d9dee1;
-    border-style: solid;
+    border: 1px solid #d9dee1;
     background-color:  #ffffff;
     width: 368px;
     height: 46px;
