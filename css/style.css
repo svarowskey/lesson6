@@ -89,7 +89,7 @@ body{
 .text a:hover{
     background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
 }
-.advert{
+.block1{
     height: 609px;
     background-color: white;
 }
@@ -183,4 +183,61 @@ body{
 }
 .transparent{
     background-color: rgba(0, 120, 201, 0.7);
+}
+.blocks2{
+    width: 683px;
+    height: 683px;
+    float: left;
+}
+.block2-box1{
+    background: url("../img/promo-img1.jpg");
+}
+.block2-box2{
+    background: url("../img/promo-img2.jpg");
+}
+.block2-text{
+    margin-left: 51px;
+    margin-top: 225px;
+}
+.block2-text a{
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 180px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 32px;
+    margin-top: 22px;
+}
+.block2-text a:hover{
+    background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
+}
+.block2-text h3{
+    color:  #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.block2-text h1{
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.block2-text p{
+    color:  #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0022);
 }
