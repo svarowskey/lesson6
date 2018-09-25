@@ -26,6 +26,13 @@ li{
 }
 
 
+/* Стилизация курсора для текста */
+
+h1, h2, h3, p, span{
+    cursor: default;
+}
+
+
 /* МЕНЮ */
 
 .menu{
@@ -36,8 +43,12 @@ li{
 .menu li{
     float: left;
 }
-.menu li:last-child{
-    margin-top: 10px;
+.menu li:last-child a{
+    position: relative;
+    top: 8px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
 }
 .menu li a{
     color: #8c8c8c;
@@ -51,6 +62,13 @@ li{
 .menu li a:hover{
     color:  #212121;
     border-bottom: 2px solid black;
+}
+.menu li:last-child a:hover{
+    border: none;
+    transform: scale(1.2);
+}
+.menu li:last-child a:active{
+    transform: scale(1);
 }
 .text{
     width: 490px;
@@ -111,6 +129,51 @@ li{
     color: white;
 }
 
+
+/* ЭФФЕКТ НАВЕДЕНИЯ НА ПРОДУКТ */
+
+.hover-transform:hover{
+    transform: scale(1.1);
+}
+
+
+/* ЭФФЕКТ НАЖАТИЯ НА ПРОДУКТ */
+
+.hover-transform:active{
+    transform: scale(1);
+    box-shadow: 0px 0px 20px 10px rgba(33, 33, 33, 0.35);
+}
+
+
+/* УБИРАЕМ ТЕНЬ ПРИ НАЖАТИИ С ПРОДУКТА*/
+
+.non-box-shadow:active{
+    box-shadow: none;
+}
+
+/* TEXT EXPLORE ALL*/
+
+.text-explore{
+    width: 175px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 68px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    background: #ffffff url(../img/arrow.png) no-repeat 166px 5px;
+}
+.text-explore:hover{
+    transform: scale(1.1);
+}
+.text-explore:active{
+    transform: scale(1);
+}
+
+
 /* Блок 1 */
 
 .block1{
@@ -147,19 +210,6 @@ li{
 .choose-adv li a:hover{
     color: #212121;
     border-bottom: 5px solid #212121;
-}
-.text-explore{
-    width: 175px;
-    float: right;
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-bottom: 68px;
-    color: #212121;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 2.5px;
-    background: #ffffff url(../img/arrow.png) no-repeat 166px 5px;
 }
 .product-list{
     clear: both;
@@ -269,6 +319,10 @@ li{
     line-height: 24px;
     text-align: left;
 }
+
+
+/* БЛОК 3 */
+
 .block-trending{
     width: 1170px;
     margin: 118px auto 0 auto;
@@ -315,17 +369,12 @@ li{
     text-align: left;
 }
 .block3-text-explore{
-    width: 175px;
-    float: right;
-    margin-top: 15px;
-    margin-bottom: 68px;
-    color: #212121;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 2.5px;
-    background: #ffffff url(../img/arrow.png) no-repeat 166px 5px;
+    margin-right: 0;
 }
+
+
+/* БЛОК 4 */
+
 .block4{
     height: 800px;
     background: url("../img/products/block4/slider2.jpg");
@@ -354,6 +403,10 @@ li{
     font-weight: 300;
     line-height: 24px;
 }
+
+
+/* БЛОК 5 */
+
 .block5{
     height: 810px;
 }
@@ -411,6 +464,10 @@ li{
 .block5-product5{
     background: url("../img/products/block5/block5-product-5-sm.jpg");
 }
+
+
+/* БЛОК 6 */
+
 .block6{
     height: 516px;
     background: url("../img/products/block6/back-img.jpg");
@@ -541,4 +598,13 @@ li{
     font-size: 12px;
     font-weight: 700;
     line-height: 26px;
+}
+.send-email{
+    position: relative;
+    top: -32px;
+    left: 352px;
+    display: block;
+    width: 21px;
+    height: 17px;
+    background: url(../img/send.png);
 }
