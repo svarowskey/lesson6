@@ -12,6 +12,9 @@ a{
 li{
     list-style-type: none;
 }
+.clr{
+    clear: both;
+}
 .container{
     width: 1366px;
     margin: 0 auto;
@@ -689,4 +692,61 @@ h1, h2, h3, p, span{
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
+}
+
+
+
+/* Страница products */
+
+.pageProducts-text{
+    margin-top: 154px;
+    width: auto;
+}
+
+.pageProducts-block1{
+
+}
+
+.pageProducts-block1-content{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.refresh{
+    margin: 70px auto 0 auto;
+    display: block;
+    width: 42px;
+    height: 29px;
+    background: url("../img/refresh.png");
+}
+
+/* Меню блока с продуктами */
+
+.pageProducts-block1-menu{
+    float: left;
+    margin-top: 55px;
+    margin-right: 196px;
+    margin-bottom: 30px;
+}
+.pageProducts-block1-menu li{
+    float: left;
+}
+.pageProducts-block1-menu li a{
+    float: left;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 35px;
+    padding: 0 14px 8px 14px;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0 1px 0 0 #6c6c6c;
+}
+.pageProducts-block1-menu li a:hover{
+    color:  #212121;
+    border-bottom: 2px solid black;
+}
+.active-item-menu-products{
+    color:  #212121;
+    border-bottom: 2px solid black;
 }
