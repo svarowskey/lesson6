@@ -750,3 +750,51 @@ h1, h2, h3, p, span{
     color:  #212121;
     border-bottom: 2px solid black;
 }
+
+.product-header{
+    height: 119px;
+    background: none;
+}
+
+.product-menu{
+    width: 1366px;
+    height: 70px;
+    background: #f4f4f4;
+}
+
+.product-menu-items{
+    width: 666px;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+
+.product-menu-items li{
+    float: left;
+}
+
+.product-menu-items a{
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+
+.product-menu-items a:hover{
+    color:  black;
+}
+
+.related-products{
+    width: 1170px;
+    margin: 118px auto 0 auto;
+}
+.related-products h1{
+    float: left;
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+.related-products-text-explore{
+    margin-right: 0;
+}
