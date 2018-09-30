@@ -823,7 +823,7 @@ h1, h2, h3, p, span{
 .product-description{
     float: left;
     text-align: center;
-    width: 510px;
+    width: 500px;
     margin-left: 56px;
 }
 
@@ -831,6 +831,7 @@ h1, h2, h3, p, span{
     color:  #212121;
     font-size: 36px;
     font-weight: 700;
+    margin-top: 40px;
 }
 
 .product-description h3{
@@ -838,10 +839,10 @@ h1, h2, h3, p, span{
     font-size: 18px;
     font-weight: 700;
     line-height: 48px;
+    margin-bottom: 18px;
 }
 
 .product-description span{
-    font-family: "Comic Sans MS";
     color:  #212121;
     font-size: 36px;
     font-weight: 300;
@@ -849,13 +850,49 @@ h1, h2, h3, p, span{
 }
 
 .product-description .price{
-    font-family: "Comic Sans MS";
     color:  #212121;
     font-size: 72px;
     font-weight: 300;
     line-height: 48px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.product-description p{
+    color:  #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 .button-product{
+    display: block;
+    width: 510px;
+    height: 71px;
+    background-color: #f44336;
+    border-radius: 40px;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    color:  #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 71px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 
+.button-product img{
+    padding-left: 18px;
+    vertical-align: sub;
+}
+
+.button-product:hover{
+    background:  darkgray;
+}
+
+.button-product:active{
+    background:  #8c8c8c;
+    box-shadow: 0px 0px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    color: white;
 }
