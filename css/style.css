@@ -559,11 +559,14 @@ h1, h2, h3, p, span{
     line-height: 22px;
     margin-bottom: 20px;
 }
-.footer li{
+.footer a{
     color:  #212121;
     font-size: 14px;
     font-weight: 700;
     line-height: 26px;
+}
+.footer a:hover{
+    color: darkgray;
 }
 .list-left{
     float: left;
@@ -776,8 +779,8 @@ h1, h2, h3, p, span{
     color:  #6c6c6c;
     font-size: 18px;
     font-weight: 700;
-    padding: 0 10px;
-    letter-spacing: 2px;
+    padding: 0 15px;
+    letter-spacing: 1px;
 }
 
 .product-menu-items a:hover{
@@ -797,4 +800,62 @@ h1, h2, h3, p, span{
 }
 .related-products-text-explore{
     margin-right: 0;
+}
+
+.block-product-details{
+    width: 1170px;
+    margin: 70px auto 0 auto;
+}
+
+.product-slider{
+    width: 570px;
+    text-align: center;
+    float: left;
+}
+
+.product-slider .main-image{
+    display: block;
+    width: 570px;
+    height: 570px;
+    background: url("../img/products/product-slider1.jpg");
+}
+
+.product-description{
+    float: left;
+    text-align: center;
+    width: 510px;
+    margin-left: 56px;
+}
+
+.product-description h1{
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.product-description h3{
+    color:  #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.product-description span{
+    font-family: "Comic Sans MS";
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.product-description .price{
+    font-family: "Comic Sans MS";
+    color:  #212121;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.button-product{
+
 }
