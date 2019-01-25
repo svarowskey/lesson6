@@ -2,14 +2,14 @@
 <head>
 <title>Пример_Простая таблица 3х3</title>
 <style>
-	td{
-		text-align: center;
-		width: 150px;
-		height: 40px;
-		background-color: #3498DB;
-		font-size: 18px;
-		color: red;
-	}
+td{
+text-align: center;
+width: 150px;
+height: 40px;
+background-color: #3498DB;
+font-size: 18px;
+color: red;
+}
 </style>
 </head>
 <body>
