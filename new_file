@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Пример_Простая таблица 3х3</title>
+<style>
+	td{
+		text-align: center;
+		width: 150px;
+		height: 40px;
+		background-color: #3498DB;
+		font-size: 18px;
+		color: red;
+	}
+</style>
+</head>
+<body>
+<h3>Простейшая таблица</h3>
+<table border="1"><!--Это начало таблицы-->
+<caption></caption>
+<tr>
+<td style="background-color: yellow;font-weight: bold;color: black;">HTML-теги</td>
+<td style="background-color: yellow;font-weight: bold;color: black;vertical-align: bottom;">назначение</td>
+</tr>
+<tr>
+<td>&lt;body&gt;..<br>&lt;/body&gt;</td>
+<td>Элемент &lt;body&gt; предназначен для хранения содержания веб-страницы (контента), отображаемого в окне браузера</td>
+</tr>
+<tr>
+<td>&lt;tr&gt;..&lt;/tr&gt;</td>
+<td>Тег &lt;tr&gt; служит контейнером для создания строки таблицы.</td>
+</tr>
+<tr>
+<td>&lt;br&gt;</td>
+<td>Тег &lt;br&gt; устанавливает перевод строки в том месте, где этот тег находится.</td>
+</tr>
+<tr>
+<td>&lt;table&gt;..<br>&lt;/table&gt;</td>
+<td>Элемент &lt;table&gt; служит контейнером для элементов, определяющих содержимое таблицы.</td>
+</tr>
+</table>
+</body>
+</html>
